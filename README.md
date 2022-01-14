@@ -1,3 +1,3 @@
 # vue-micro-app
  
-demo
+demo2
