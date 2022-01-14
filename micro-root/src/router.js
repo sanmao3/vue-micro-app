@@ -16,7 +16,9 @@ const routes = [
     redirect: '/home/app1/hello',
     children: [{
       path: 'hello', 
-      component: () => import('./pages/App1Home.vue')
+      component: {
+        template: '<micro-app name="micro-app1" url="http://localhost:3001/" baseroute="/app1"></micro-app>'
+      }
     }]
   }
 ]
